@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
+  
+  <title>Frontend Mentor | News homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ 
+</head>
+<body>
+  <!-- navbar starts -->
+   <header class="header">
+     <div>
+       <img src="./assets/images/logo.svg" alt="hello" class="logo">
+     </div>
+
+    <nav>
+      <button id="close">
+        <img src="./assets/images/icon-menu-close.svg" alt="hello">
+      </button>
+      <ul>
+        <li>Home</li>
+        <li> New</li>
+        <li> Popular</li>
+        <li> Trending</li>
+        <li> Categories</li>
+      </ul>
+    </nav>
+
+    <div class="menu-btn">
+      <button id="menu-btn">
+        <img src="./assets/images/icon-menu.svg" alt="hello">
+      </button>
+    </div>
+   </header>
+   
+<!-- navbar ends -->
+
+<!--show-info starts here  -->
+<section class="show-info">
+  <div>
+    <picture>
+      <source media="(min-width:768px)" srcset="./assets/images/image-web-3-desktop.jpg">
+      <img src="./assets/images/image-web-3-mobile.jpg" alt="hello">
+    </picture>
+
+  <div class="sub-head">
+    <div>
+      <h1 class="head-1"> The Bright Future of Web 3.0?</h1>
+    </div>
+    <div >
+    <p class="para para-show"> We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+      But is it really fulfilling its promise?</p>
+    
+      <button class="btn">Read more</button>
+   </div>
+  </div>
+</div>
+<!-- show-info ends -->
+
+
+ <!-- new container starts here -->
+<div class="new-container">
+<h2 class="head-2">  New </h2>
+
+<article>
+  <h3 class="head-3">  Hydrogen VS Electric Cars</h3>
+<p class="para para-1"> Will hydrogen-fueled cars ever catch up to EVs?</p>
+</article>
+
+<article>
+  <h3 class="head-3"> The Downsides of AI Artistry</h3>
+ <p class="para para-2"> What are the possible adverse effects of on-demand AI image generation?</p>
+
+</article>
+ 
+ <article>
+  <h3 class="head-3"> Is VC Funding Drying Up?</h3>
+ <p class="para para-3"> Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+ </article>
+</div>
+<!-- new container ends here -->
+  
+</section>
+ 
+<!-- final section starts here -->
+ <section class="cards">
+  <article>
+    <img src="./assets/images/image-retro-pcs.jpg" alt="hello">
+    <div>
+      <span> 01</span>
+   <h4 class="head-4"> Reviving Retro PCs</h4>
+    <p class="para">What happens when old PCs are given modern upgrades?</p>
+    </div>
+   
+  </article>
+
+<article>
+  <img src="./assets/images/image-top-laptops.jpg" alt="hello">
+  <div>
+ <span> 02</span>
+ <h4 class="head-4"> Top 10 Laptops of 2022</h4>
+ <p class="para"> Our best picks for various needs and budgets.</p>
+</div>
+</article>
+ 
+<article>
+  <img src="./assets/images/image-gaming-growth.jpg" alt="hello">
+  <div>
+ <span> 03</span>
+ <h4 class="head-4"> The Growth of Gaming</h4>
+ <p class="para"> How the pandemic has sparked fresh opportunities.</p>
+</div>
+</article>
+  
+ </section>
+ <!-- final sections ends -->
+
+ <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Swardha">Swardha Sawant</a>.
+  </div>
+<!-- script here -->
+  <script src="script.js"></script>
+</body>
+</html>
